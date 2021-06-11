@@ -1,5 +1,6 @@
 .BuildControls {
     width: 100%;
+    /* height:calc(100%-100px); */
     background-color: #CF8F2E;
     display: flex;
     flex-flow: column;
@@ -7,7 +8,8 @@
     box-shadow: 0 2px 1px #ccc;
     margin: auto;
     padding: 10px 0;
-    
+    position: absolute; 
+    bottom:0;
 }
 
 
@@ -51,3 +53,27 @@
         transform: scale(1);
     }
 }
+
+/* @media (min-width: 200px) and (min-height: 400px){
+    .BuildControls {
+        position: static;
+    }
+}
+
+@media (min-width: 300px) and (min-height: 401px){
+    .BuildControls {
+        position: static;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 700px){
+    .BuildControls {
+        position: absolute; 
+    }
+}
+
+@media (min-width: 700px) and (min-height: 1000px){
+    .BuildControls {
+        position: absolute; 
+    }
+} */
